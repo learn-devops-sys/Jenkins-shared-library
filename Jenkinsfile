@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("Code"){
             steps{
-                clone("https://github.com/Amitabh-DevOps/banking-app-project.git","dev")
+                clone("https://github.com/Amitabh-DevOps/Springboot-BankApp","dev")
                 echo "Code clonning done."
             }
         }
